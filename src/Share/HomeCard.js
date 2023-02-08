@@ -1,7 +1,7 @@
 import React from "react";
 import {
   FaCalendarAlt,
-  FaDribbble,
+  FaTelegram,
   FaEnvelopeOpenText,
   FaFacebookF,
   FaLinkedinIn,
@@ -38,7 +38,7 @@ const HomeCard = () => {
             {/* twitter link add here */}
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
               <span className="socialbtn text-[#1C9CEA]">
-                <FaTwitter />
+                <FaTelegram />
               </span>
             </a>
             {/* drop link add here */}

@@ -383,15 +383,15 @@ const AllData = () => {
       link: "/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "وبلاگ",
-      link: "/blogs",
-      icon: <FaBlogger />,
-    },
+    // {
+    //   id: "04",
+    //   name: "وبلاگ",
+    //   link: "/blogs",
+    //   icon: <FaBlogger />,
+    // },
     {
       id: "05",
-      name: "تماس",
+      name: "Contact",
       link: "/contact",
       icon: <RiContactsBookLine />,
     },
