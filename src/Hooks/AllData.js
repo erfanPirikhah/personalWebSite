@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
+import work1 from "../assets/images/farscada/farscada2.png";
 import work2 from "../assets/images/work_images/2.jpg";
 import work3 from "../assets/images/work_images/3.jpg";
 import work4 from "../assets/images/work_images/4.jpg";
@@ -10,7 +10,7 @@ import work7 from "../assets/images/work_images/7.jpg";
 import work8 from "../assets/images/work_images/8.jpg";
 import work9 from "../assets/images/work_images/9.jpg";
 // works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
+import workSmall1 from "../assets/images/farscada/farscada2.png";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
 import workSmall3 from "../assets/images/work_images/small/3.jpg";
 import workSmall4 from "../assets/images/work_images/small/4.jpg";
@@ -141,16 +141,16 @@ const AllData = () => {
   const workItems = [
     {
       id: "1",
-      tag: "UI/UX",
-      title: "طراحی رابط کاربری حسن پرویزی",
+      tag: "FarsCada",
+      title: "Solar Power Station Monitoring",
       img: work1,
       imgSmall: workSmall1,
       bg: "#FFF0F0",
-      client: "حسن پرویزی",
-      langages: "فتوشاپ، فیگما",
-      link: "https://www.figma.com",
-      linkText: "فیگما",
-      description: "پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای برهنه با توپ پلاستیکی فوتبال بازی می کند، روزی رفت ی کتانی نو خرید و اومد و به پسرک گفت بیا این کفشا رو بپوش…پسرک کفشا رو پوشید و خوشحال رو به پیر مرد کرد و گفت: شما خدایید؟! پیر مرد لبش را گزید و گفت نه! پسرک گفت پس دوست خدایی، چون من دیشب فقط به خدا گفتم كه کفش ندارم… هر نفسی که فرو می‌ بریم، مرگی را که مدام به ما دست‌ اندازی می‌کند پس می‌زند... در نهایت این مرگ است که باید پیروز شود، زیرا از هنگام تولد بخشی از سرنوشت ما شده و فقط مدت کوتاهی پیش از بلعیدن طعمه اش، با آن بازی می کند. با این همه، ما تا آنجا که ممکن است، با علاقه فراوان و دلواپسی زیاد به زندگی ادامه می دهیم، همان‌ طور که تا آنجا که ممکن است طولانی‌ تر در یک حباب صابون می‌ دمیم تا بزرگتر شود، گر چه با قطعیتی تمام می‌ دانیم که خواهد ترکید.",
+      client: "FarsCada",
+      langages: "Node js , Express js , SQL Server , React Js",
+      link: "http://193.151.133.70/",
+      linkText: "Develop",
+      description: "",
     },
     {
       id: "2",
@@ -325,64 +325,65 @@ const AllData = () => {
 
   // Menu items for Homepage One
   const menuItem = [
-    {
-      id: "01",
-      name: "خانه",
-      link: "/home/homePage",
-      icon: <AiOutlineHome />,
-    },
-    {
-      id: "02",
-      name: "درباره",
-      link: "/home/about",
-      icon: <FaRegUser />,
-    },
-    {
-      id: "06",
-      name: "رزومه",
-      link: "/home/resume",
-      icon: <CgNotes />,
-    },
-    {
-      id: "03",
-      name: "کارها",
-      link: "/home/works",
-      icon: <FiCodesandbox />,
-    },
-    {
-      id: "04",
-      name: "وبلاگ",
-      link: "/home/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
-      name: "تماس",
-      link: "/home/contact",
-      icon: <RiContactsBookLine />,
-    },
+    // {
+    //   id: "01",
+    //   name: "خانه",
+    //   link: "/home/homePage",
+    //   icon: <AiOutlineHome />,
+    // },
+    // {
+    //   id: "02",
+    //   name: "درباره",
+    //   link: "/home/about",
+    //   icon: <FaRegUser />,
+    // },
+    // {
+    //   id: "06",
+    //   name: "رزومه",
+    //   link: "/home/resume",
+    //   icon: <CgNotes />,
+    // },
+    // {
+    //   id: "03",
+    //   name: "کارها",
+    //   link: "/home/works",
+    //   icon: <FiCodesandbox />,
+    // },
+    // {
+    //   id: "04",
+    //   name: "وبلاگ",
+    //   link: "/home/blogs",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: "05",
+    //   name: "تماس",
+    //   link: "/home/contact",
+    //   icon: <RiContactsBookLine />,
+    // },
   ];
 
   // Menu items for Homepage Two
   const menuItemTwo = [
+  
     {
       id: "01",
-      name: "About",
-      link: "/about",
-      icon: <FaRegUser />,
-    },
-    {
-      id: "02",
       name: "resume",
       link: "/resume",
       icon: <CgNotes />,
     },
     {
-      id: "03",
-      name: "کارها",
-      link: "/works",
-      icon: <FiCodesandbox />,
+      id: "02",
+      name: "About",
+      link: "/about",
+      icon: <FaRegUser />,
     },
+    // {
+    //   id: "03",
+    //   name: "کارها",
+    //   link: "/works",
+    //   icon: <FiCodesandbox />,
+    // },
     // {
     //   id: "04",
     //   name: "وبلاگ",

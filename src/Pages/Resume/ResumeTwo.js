@@ -54,6 +54,7 @@ const ResumeTwo = () => {
                   <button className="resume-btn">Linux - Ubuntu </button>
                   <button className="resume-btn"> Docker </button>
                   <button className="resume-btn"> TypeScript </button>
+                  <button className="resume-btn"> Git </button>
                 </div>
               </div>
 
