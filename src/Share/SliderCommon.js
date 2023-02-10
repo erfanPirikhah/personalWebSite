@@ -1,6 +1,6 @@
 // import React from "react";
 // import Slider from "react-slick";
-import UseData from "../Hooks/UseData";
+// import UseData from "../Hooks/UseData";
 
 const SliderCommon = () => {
   // const { sliderImg } = UseData();
