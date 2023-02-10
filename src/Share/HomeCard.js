@@ -7,7 +7,7 @@ import {
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaMobileAlt,
-  FaTwitter,
+  // FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
 import img from "../assets/images/about/1606398283986.jfif";
